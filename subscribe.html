@@ -56,7 +56,7 @@ h1 {
 
 input[type=text], select {
     width: 600;
-    color: #f2f2f2;
+    color: solid black;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
@@ -115,18 +115,14 @@ div {
 
 
 <div>
-  <form action="subscribe.php">
+  <form method="post" name="subscribe_entry" action="subscribe.php">
     <label for="fname">
-    
     <h3>email</h3>
-    
     </label>
     
     <input type="text" id="fname" name="email" placeholder="put it here">
-    <input type="submit" value="submit">
+    <input type="submit" name="submit" >
     
   </form>
 </div>
 
-    
-</style>
